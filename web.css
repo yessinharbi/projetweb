@@ -1,0 +1,365 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+
+}
+body{
+    
+    min-height: 100vh;
+    background-color: #333;
+    background-position: center;
+    margin: 0;
+    overflow: auto;
+}
+header{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.mywebsite{
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+/*css pour login button */
+.navi a{
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+
+}
+
+.navi .login1{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #000000;
+    margin-left: 70px;
+    font-weight: 500;
+    
+}
+.navi .login1:hover{
+    
+    background: #fff;
+    color: #333;
+}
+
+
+
+p {
+	color: rgb(255, 255, 255);
+	font-size: 1.7rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	letter-spacing: 0.05rem;
+}
+/*css pour intro */
+#intro {
+    background-image: url('background.jpg');
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	z-index: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh; 
+    
+}
+
+#intro h1 { 
+    font-size: 4rem;
+    color: white;
+}
+.intro-container{
+    margin-left: 150px;
+}
+/* css pour gallery button  */
+.cta {
+	display: inline-block;
+	padding: 10px 30px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid rgb(255, 255, 255);
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+.cta:hover {
+	color: white;
+	background-color: rgb(58, 57, 59);
+}
+.section-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: rgb(255, 255, 255);
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+
+}
+/*css pour about us  */
+#about
+{
+  
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-us{
+    font-size: 4rem;
+	font-weight: 300;
+	color: rgb(255, 255, 255);
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+    
+   
+ }
+/*css pour Shadow Chroma */
+.shadow{
+    font-size: 40px;
+    text-align: center;
+   
+   
+}
+.text{
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+}
+/*css pour video */
+.about-vid {
+    text-align: center;
+    display: block;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+  /*css pour les images*/
+.responsive{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    
+}
+#gallery{
+    font-size: 4rem;
+	font-weight: 300;
+	color: rgb(255, 255, 255);
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+}
+/*css pour contact */
+#contact .contact {
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 90%;
+    text-align: center;
+    margin-top:  1100px;
+}
+#contact .contact-items {
+	
+	width: 100%;
+}
+#contact .contact-item {
+	width: 80%;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 18px 0 #0000002c;
+	transition: 0.3s ease box-shadow;
+	background-color: #535253;
+}
+#contact .contact-item:hover {
+	box-shadow: 0px 0px 5px 0 #0000002c;
+}
+#contact .icon {
+	width: 100px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+#contact .contact-info h1 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+#contact .contact-info h2 {
+	font-size: 1.3rem;
+	line-height: 2rem;
+	font-weight: 500;
+}	#contact .contact {
+    flex-direction: column;
+    padding: 100px 0;
+    align-items: center;
+    justify-content: center;
+    min-width: 20vh;
+    margin-left: 300px;
+}
+#contact .contact-items {
+    width: 120%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+}
+#contact .contact-item {
+    width: 30%;
+    margin: 0;
+    flex-direction: row;
+}
+
+
+#contact .contact-item .contact-info {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
+/*css pour like et dislike */
+.ty {
+    color: rgb(6, 44, 94);
+    font-size: 18px; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold; 
+    background-color: #535253;     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.post {
+	width: 400px;
+	font-family: 'Lexend', sans-serif;
+}
+
+.post-image {
+	display: block;
+	width: 100%;
+}
+
+.post-ratings-container {
+	display: flex;
+	justify-content: left;
+	padding: 12px 0;
+}
+
+.post-rating {
+	display: flex;
+	align-items: center;
+	cursor: default;
+}
+
+.post-rating:not(:last-child) {
+	margin-right: 12px;
+}
+
+.post-rating-selected > .post-rating-button,
+.post-rating-selected > .post-rating-count {
+	color: #009578;
+}
+
+.post-rating-button {
+	margin-right: 6px;
+	cursor: pointer;
+	color: #555555;
+}
+
+.post-rating:not(.post-rating-selected) > .post-rating-button:hover {
+	color: #000000;
+}
+/*css pour commentaire */
+.box {
+
+    position: absolute;
+    border: 1px solid white;
+    padding: 10px 20px;
+    right: 35%;
+    top: 325%;
+    z-index: 100;
+    width: 500px;
+    
+}
+
+.box h2 {
+   
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    background-color: white;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    transition: .5s;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="submit"],
+button {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    border: 2px solid #fff;
+    color: #000000;
+    background-color: transparent;
+}
+
+button {
+    border: 2px solid #fff;
+    color: #000000;
+    background-color: transparent;
+}
+
+.btn {
+    display: none;
+}
